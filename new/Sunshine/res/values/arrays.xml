@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ml_webview_more" translatable="true">
+        <item>Copy link</item>
+        <item>Open in Browser</item>
+        <item>Baidu</item>
+        <item>Sina</item>
+        <item>Play Games</item>
+    </string-array>
+
+</resources>

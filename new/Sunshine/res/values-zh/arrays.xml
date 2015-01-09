@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ml_webview_more" translatable="true">
+        <item>复制链接</item>
+        <item>使用系统浏览器打开</item>
+        <item>Baidu</item>
+        <item>Sina</item>
+        <item>玩玩小游戏</item>
+    </string-array>
+
+</resources>

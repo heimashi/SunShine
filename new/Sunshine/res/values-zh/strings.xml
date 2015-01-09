@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Sunshine</string>
+    <string name="next_step">下一步</string>
+    <string name="image_thumbnail">Image Thumbnail</string>
+
+    <string name="ptr_pull_to_refresh">下拉可以刷新…</string>
+    <string name="ptr_release_to_refresh">松开刷新…</string>
+    <string name="ptr_refreshing">载入中…</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
+</resources>

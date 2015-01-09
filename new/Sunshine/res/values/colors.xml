@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    
+    
+    <color name="color_black_tran_7">#10000000</color>
+    
+    <!-- V6 -->
+    <color name="color_black">#000000</color>
+    <color name="color_black_tran_3">#08000000</color>
+    <color name="color_black_tran_5">#0D000000</color>
+    <color name="color_black_tran_10">#19000000</color>
+    <color name="color_black_tran_15">#1B000000</color>
+    <color name="color_black_tran_20">#33000000</color>
+    <color name="color_black_tran_30">#4D000000</color>
+    <color name="color_black_tran_40">#66000000</color>
+    <color name="color_black_tran_50">#80000000</color>
+    <color name="color_black_tran_60">#99000000</color>
+    <color name="color_black_tran_70">#B2000000</color>
+    <color name="color_black_tran_80">#CC000000</color>
+    <color name="color_black_tran_85">#D8000000</color>
+    <color name="color_black_tran_90">#E5000000</color>
+    <color name="color_orange">#FF6600</color>
+    <color name="color_orange_tran">#ffb07b</color>
+    <color name="color_line">#CBCBCC</color>
+    <color name="color_common_back">#F8F8F8</color>
+    <color name="color_common_yellow">#fd8d51</color>
+    <color name="list_item_line">#DFDFDF</color>
+    <color name="friend_list_bg">#F8F8F8</color>
+    
+    <color name="color_title_back">#EFEFF0</color>
+    
+</resources>

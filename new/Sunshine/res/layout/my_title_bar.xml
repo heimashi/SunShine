@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ml="http://schemas.android.com/apk/res/com.xiaomi.channel"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:background="@color/color_title_back" >
+
+    <Button
+        android:id="@+id/left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="6.5dip"
+        android:layout_marginLeft="7.5dip"
+        android:layout_marginTop="6.5dip"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/left_image"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/normal_back" />
+    
+    <TextView 
+        android:id="@+id/left_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/left_image"
+        android:layout_centerVertical="true"
+        android:textColor="@color/color_black_tran_70"
+        android:textSize="@dimen/titlebar" 
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/color_black_tran_70"
+        android:textSize="@dimen/titlebar" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="16.5dip"
+        android:layout_height="16.5dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@id/title"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@anim/title_bar_loading"
+        android:indeterminateOnly="true"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6.5dip"
+        android:layout_marginRight="6.5dip"
+        android:layout_marginTop="7.5dip"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/right_image"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dip"
+        android:scaleType="center"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/bottom_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/color_bg_title_back_line_bottom" />
+
+</RelativeLayout>
