@@ -14,7 +14,7 @@ import com.sw.sun.release.SunBuildSettings;
 
 public class SunApplication extends Application {
 
-	//
+	//test
 	
     public static final String DISK_CACHE_DIR = Environment.getExternalStorageDirectory()
             + "/sun/cache/image/";
